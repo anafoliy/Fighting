@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fighting</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Press+Start+2P&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <div class="main"">
+        <!-- smaller red container div -->
+        <div class=" container">
+        <!-- player health -->
+        <div class="playerHealth">
+            <div class="lostHealth"></div>
+            <div class="remainingHealth" id="playerHealth">
+            </div>
+        </div>
+        <!-- Timer -->
+        <div class="timer" id="timer">
+
+        </div>
+
+        <!-- enemy health -->
+        <div class="enemyHealth">
+            <div class="enemyLostHealth"></div>
+            <div class="enemyRemainingHealth" id="enemyHealth">
+            </div>
+        </div>
+
+    </div>
+    <div class="displayText" id="displayText">
+        TIE</div>
+    <!-- <button class="btn" id='btn'>START</button> -->
+    <canvas></canvas>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+        integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+        </script>
+    <script src="./js/utils.js "></script>
+    <script src="./js/classes.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
